@@ -16,7 +16,6 @@ const NavBar = function() {
 			<a href="https://github.com/underlay" className="right-link">
 				Code
 			</a>
-			
 		</nav>
 	);
 };
