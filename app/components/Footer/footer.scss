@@ -8,6 +8,7 @@
 		align-items: center;
 		justify-content: center;
 		text-decoration: none;
+		flex-wrap: wrap;
 		opacity: 0.8;
 		&:hover {
 			opacity: 1;
@@ -20,6 +21,10 @@
 				padding-left: 1em;
 			}
 		}
+	}
+	span {
+		flex: 0 0 auto;
+		margin: 0.25em 0em;
 	}
 	img {
 		height: 17px;
