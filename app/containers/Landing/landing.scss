@@ -17,7 +17,6 @@
 		font-family: 'Courier New', Courier, monospace;
 		display: inline-block;
 		&:hover {
-			// box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
 			border: 1px solid #555;
 		}
 		&:active {
@@ -118,9 +117,7 @@
 	.readings {
 		display: flex;
 		flex-wrap: wrap;
-
 		justify-content: space-between;
-		// font-family: 'Courier New', Courier, monospace;
 		.reading {
 			width: 46%;
 			color: inherit;
@@ -128,6 +125,9 @@
 			margin-bottom: 1.5em;
 			&:hover {
 				text-decoration: underline;
+			}
+			b {
+				font-weight: 600;
 			}
 			.date {
 				font-size: 16px;

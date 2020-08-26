@@ -55,7 +55,7 @@ const Landing = function() {
 			</section>
 			<section className="how">
 				<h2>How it Works</h2>
-				<p>The Underlay is premised on the idea that a knowledge graph can be constructure from a series of distributed transactions called 'assertions'. Multiple assertions are combined through a process called 'reduction' and can be curated into useful groupings using 'collections'. </p>
+				<p>The Underlay is premised on the idea that a knowledge graph can be constructed from a series of distributed transactions called 'assertions'. Multiple assertions are combined through a process called 'reduction' and can be curated into useful groupings using 'collections'. </p>
 				<div className="blocks">
 					{blocks.map((item) => {
 						return (
