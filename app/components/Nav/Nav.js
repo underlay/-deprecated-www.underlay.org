@@ -9,12 +9,14 @@ const NavBar = function() {
 			<Link to="/">
 				<img src="/logo.png" alt="Underlay Logo" />
 			</Link>
-			<a
-				href="https://docs.google.com/document/d/13KpOrtMo4cWFNrmf0Qf12G-kQ9kgN4AlLRmNSNiGdKE/edit?usp=sharing"
-				style={{ marginLeft: '250px' }}
-			>
-				Edit Text
+			<div className="spacer" />
+			<a href="/#rfcs" className="right-link">
+				RFCs
 			</a>
+			<a href="https://github.com/underlay" className="right-link">
+				Code
+			</a>
+			
 		</nav>
 	);
 };

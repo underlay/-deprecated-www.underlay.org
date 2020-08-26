@@ -2,8 +2,21 @@
 	display: flex;
 	align-items: center;
 	padding: 30px 0px;
+	.spacer {
+		flex: 1 1 auto;
+	}
+	a {
+		color: inherit;
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	.right-link {
+		margin-left: 1em;
+	}
 	img {
-		height: 50px;
+		height: 35px;
 	}
 }
 

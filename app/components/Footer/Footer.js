@@ -1,16 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 require('./footer.scss');
 
-
 const Footer = function() {
 	return (
-		<nav className="footer">
+		<div className="footer-component">
 			<a href="https://www.knowledgefutures.org">
-				The Underlay is built and maintained by the Knowledge Futures Group
+				A project of the
+				<img className="logo" src="/kfgMini.svg" alt="KFG logo" />
 			</a>
-		</nav>
+		</div>
 	);
 };
 
