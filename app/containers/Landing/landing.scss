@@ -140,16 +140,28 @@
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
+		margin: 3em 0em 0em;
 		.reading {
 			width: 46%;
 			@include for-mobile {
 				width: 100%;
 			}
+			padding: 10px;
+			background: #eeedeb;
+			border: none;
+			box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+			border: 1px solid #aaa;
+			border-radius: 2px;
+			text-decoration: none;
+			display: inline-block;
 			color: inherit;
 			text-decoration: none;
 			margin-bottom: 1.5em;
 			&:hover {
-				text-decoration: underline;
+				border: 1px solid #555;
+			}
+			&:active {
+				background: #e4e3e0;
 			}
 			b {
 				font-weight: 600;
@@ -158,6 +170,7 @@
 				font-size: 16px;
 				opacity: 0.6;
 				font-style: italic;
+				padding-top: 5px;
 			}
 		}
 	}

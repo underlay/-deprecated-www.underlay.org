@@ -32,46 +32,28 @@ const Landing = function() {
 
 	const readings = [
 		{
-			rfcNumber: '7',
-			title: 'Exploring the numeric functions of reduction',
-			date: 'Aug 3, 2020 · Danny Hillis',
-			link: '',
+			rfcNumber: '0',
+			title: 'Underlay RFCs',
+			date: 'Aug 2, 2020 · Danny Hillis',
+			link: 'https://notes.knowledgefutures.org/pub/urfcs/release/1',
 		},
 		{
-			rfcNumber: '6',
-			title: 'Exploring the numeric functions of reduction',
-			date: 'Aug 3, 2020 · Joel Gustafson',
-			link: '',
+			rfcNumber: '-1',
+			title: 'Understander: A Science Annotator',
+			date: 'May 14, 2020 · Samuel Klein',
+			link: 'https://notes.knowledgefutures.org/pub/annotator/release/2',
 		},
 		{
-			rfcNumber: '5',
-			title: 'Exploring the numeric functions of reduction',
-			date: 'Aug 3, 2020 · Travis Rich and SJ Klein',
-			link: '',
+			rfcNumber: '-2',
+			title: 'Open Research Questions (2019)',
+			date: 'Nov 26, 2019 · Joel Gustafson',
+			link: 'https://notes.knowledgefutures.org/pub/research-questions/release/1',
 		},
 		{
-			rfcNumber: '4',
-			title: 'Exploring the numeric functions of reduction',
-			date: 'Aug 3, 2020 · Zach Verdin',
-			link: '',
-		},
-		{
-			rfcNumber: '3',
-			title: 'Exploring the numeric functions of reduction',
-			date: 'Aug 3, 2020 · Danny Hillis',
-			link: '',
-		},
-		{
-			rfcNumber: '2',
-			title: 'Exploring the numeric functions of reduction',
-			date: 'Aug 3, 2020 · Danny Hillis, SJ Klein, and Joel Gustafson',
-			link: '',
-		},
-		{
-			rfcNumber: '1',
-			title: 'Exploring the numeric functions of reduction',
-			date: 'Aug 3, 2020 · Danny Hillis',
-			link: '',
+			rfcNumber: '-3',
+			title: 'Content-Addressing Semantic Data',
+			date: 'Oct 24, 2019 (updated Aug 31, 2020) · Joel Gustafson',
+			link: 'https://notes.knowledgefutures.org/pub/ic0grz58/release/3',
 		},
 	];
 
@@ -140,7 +122,19 @@ const Landing = function() {
 				</div>
 			</section>
 			<section className="read">
-				<h2 id="rfcs">Read More</h2>
+				<h2 id="rfcs">RFCs</h2>
+				<p>
+					<span>
+						The Underlay maintains a RFC (Request for Comments) series to document our
+						ideas, proposals, progress, and plans. RFCs represent snapshots of thinking
+						and may contain outdated or deprecated ideas. For a more thorough
+						description, see{' '}
+					</span>
+					<a href="https://notes.knowledgefutures.org/pub/urfcs/release/1">
+						Danny Hillis's RFC 0
+					</a>
+					.
+				</p>
 				<div className="readings">
 					{readings.map((item) => {
 						return (
@@ -153,6 +147,14 @@ const Landing = function() {
 						);
 					})}
 				</div>
+				<p>
+					<a
+						className="button"
+						href="https://github.com/underlay/overview/blob/master/community/RFCs.md"
+					>
+						View all RFCs
+					</a>
+				</p>
 			</section>
 			<section className="join">
 				<h2>Join the Effort</h2>
