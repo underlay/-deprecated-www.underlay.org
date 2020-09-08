@@ -1,6 +1,6 @@
 # Underlay v2 site
 
-Auto-deployed from Master to demo at: [https://v2.underlay.org](https://v2.underlay.org)
+Auto-deployed from Master to demo at: [https://www.underlay.org](https://www.underlay.org)
 
 ## To Install
 
