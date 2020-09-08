@@ -10,7 +10,7 @@
     "url": "https://github.com/underlay/site_v2.git"
   },
   "scripts": {
-    "build": "rm -rf dist && webpack --config webpack/webpackConfigProd.js && cp -R static/* dist && rm dist/main.js",
+    "build": "rm -rf dist && webpack --config webpack/webpackConfigProd.js && cp -R static/* dist && rm dist/main.js && cp _redirects dist/_redirects",
     "prod": "npm run build && serve ./dist",
     "lint": "eslint app webpack",
     "start": "webpack-dev-server --config webpack/webpackConfigDev.js"
