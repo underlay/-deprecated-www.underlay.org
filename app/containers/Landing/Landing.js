@@ -83,8 +83,8 @@ const Landing = function() {
 					The Underlay's purpose is to make knowledge accessible, connectable, and
 					inspectable in service of the public good. Like the web, it is an emergent
 					system and concept. It is built on a set of open source protocols and tools for
-					structuring, storing, and aggregating distributed graph data.  
-					<a href="https://notes.knowledgefutures.org/pub/underlay-short-intro/release/1"><i>Read more</i></a>
+					structuring, storing, and aggregating distributed graph data. &nbsp;  
+					<a href="https://notes.knowledgefutures.org/pub/underlay-short-intro/release/1" style="color:gray;"><i>Read more</i></a>
 				</p>
 			</section>
 			<section className="how">
