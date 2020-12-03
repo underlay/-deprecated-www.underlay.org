@@ -32,6 +32,12 @@ const Landing = function() {
 
 	const readings = [
 		{
+			rfcNumber: '1',
+			title: 'A Short Introduction to the Underlay',
+			date: 'Aug 2, 2020 · Danny Hillis',
+			link: 'https://notes.knowledgefutures.org/pub/underlay-short-intro/release/1',
+		},
+		{
 			rfcNumber: '0',
 			title: 'Underlay RFCs',
 			date: 'Aug 2, 2020 · Danny Hillis',
@@ -55,6 +61,12 @@ const Landing = function() {
 			date: 'Oct 24, 2019 (updated Aug 31, 2020) · Joel Gustafson',
 			link: 'https://notes.knowledgefutures.org/pub/ic0grz58/release/3',
 		},
+		{
+			rfcNumber: '-4',
+			title: 'Data and Model Sharing',
+			date: 'Sep 17, 2019 (updated Sep 30, 2020) · Samuel Klein',
+			link: 'https://notes.knowledgefutures.org/pub/data-sharing-questions/release/18',
+		},
 	];
 
 	const joinButtons = [
@@ -71,7 +83,7 @@ const Landing = function() {
 					The Underlay's purpose is to make knowledge accessible, connectable, and
 					inspectable in service of the public good. Like the web, it is an emergent
 					system and concept. It is built on a set of open source protocols and tools for
-					structuring, storing, and aggregating distributed graph data.
+					structuring, storing, and aggregating distributed graph data. 
 				</p>
 			</section>
 			<section className="how">
