@@ -32,40 +32,52 @@ const Landing = function() {
 
 	const readings = [
 		{
+			rfcNumber: '3',
+			title: 'What is a Distributed Knowledge Graph?',
+			date: 'Oct 15, 2020 · Joel Gustafson',
+			link: 'https://notes.knowledgefutures.org/pub/belji1gd',
+		},
+		{
+			rfcNumber: '2',
+			title: 'Badger Platform',
+			date: 'April 23, 2019 (updated Oct 1, 2019) · Gabe Stein',
+			link: 'https://notes.knowledgefutures.org/pub/badge-platform-experiment',
+		},
+		{
 			rfcNumber: '1',
 			title: 'A Short Introduction to the Underlay',
 			date: 'Aug 2, 2020 · Danny Hillis',
-			link: 'https://notes.knowledgefutures.org/pub/underlay-short-intro/release/1',
+			link: 'https://notes.knowledgefutures.org/pub/underlay-short-intro',
 		},
 		{
 			rfcNumber: '0',
 			title: 'Underlay RFCs',
 			date: 'Aug 2, 2020 · Danny Hillis',
-			link: 'https://notes.knowledgefutures.org/pub/urfcs/release/1',
+			link: 'https://notes.knowledgefutures.org/pub/urfcs',
 		},
 		{
 			rfcNumber: '-1',
 			title: 'Understander: A Science Annotator',
 			date: 'May 14, 2020 · Samuel Klein',
-			link: 'https://notes.knowledgefutures.org/pub/annotator/release/2',
+			link: 'https://notes.knowledgefutures.org/pub/annotator',
 		},
 		{
 			rfcNumber: '-2',
 			title: 'Open Research Questions (2019)',
 			date: 'Nov 26, 2019 · Joel Gustafson',
-			link: 'https://notes.knowledgefutures.org/pub/research-questions/release/1',
+			link: 'https://notes.knowledgefutures.org/pub/research-questions',
 		},
 		{
 			rfcNumber: '-3',
 			title: 'Content-Addressing Semantic Data',
 			date: 'Oct 24, 2019 (updated Aug 31, 2020) · Joel Gustafson',
-			link: 'https://notes.knowledgefutures.org/pub/ic0grz58/release/3',
+			link: 'https://notes.knowledgefutures.org/pub/ic0grz58',
 		},
 		{
 			rfcNumber: '-4',
 			title: 'Data and Model Sharing',
 			date: 'Sep 17, 2019 (updated Sep 30, 2020) · Samuel Klein',
-			link: 'https://notes.knowledgefutures.org/pub/data-sharing-questions/release/18',
+			link: 'https://notes.knowledgefutures.org/pub/data-sharing-questions',
 		},
 	];
 
